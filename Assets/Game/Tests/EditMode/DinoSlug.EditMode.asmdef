@@ -1,0 +1,6 @@
+{
+  "name": "DinoSlug.EditMode",
+  "references": ["DinoSlug.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

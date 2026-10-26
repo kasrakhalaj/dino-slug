@@ -1,0 +1,5 @@
+{
+  "name": "DinoSlug.PlayMode",
+  "references": ["DinoSlug.Runtime", "Unity.InputSystem", "Unity.TextMeshPro", "UnityEngine.UI", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

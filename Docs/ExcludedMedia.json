@@ -1,0 +1,1362 @@
+{
+  "project": "Dino Slug",
+  "source_media_omitted": true,
+  "build_includes_original_game_media": true,
+  "excluded_assets": [
+    {
+      "path": "Assets/Game/Art/MetalSlug/hmg_bullet.png",
+      "guid": "8be2d4e7240cbf040bd21757427425ee",
+      "sha256": "2aff69fe43ff96f58dd856c68e229451ca320c669c33ff745d2821e8fd110279"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/hmg_gun.png",
+      "guid": "570ff155de377a849b611f02008360fa",
+      "sha256": "bb205e67c08913099de11313d1f0743fb953d74db69d4ebc5687167a224d6747"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/h_pickup_0.png",
+      "guid": "68bca55743f5e114b828a2c65ea81d5d",
+      "sha256": "086e87c7382164286886dc6ab9732fe8c7899a254a1845d074af2a17bfd55747"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/h_pickup_1.png",
+      "guid": "cb3065cb353d3da4e8724bffface2e63",
+      "sha256": "7f2e1b64defde2d6f2f25937ef8004b80f5b9aa6050d15eb0cb1f191899ac4bd"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/h_pickup_2.png",
+      "guid": "a0e0290be4c0f6b4e98fd1add8487d01",
+      "sha256": "b0d4c4c6405f33ee906934beb4040687b181926a0680428ea3a2d142a43d5754"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/h_pickup_3.png",
+      "guid": "f2bf1b080ee3204458b85d1c4e8cc507",
+      "sha256": "f3b0cb2c5dda36825359a62c502394e8540242e1a9e8ce5ed83f75f8199759c7"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/enemy_bullet.png",
+      "guid": "cb9bd2273fc36a64d9280b40de4b6342",
+      "sha256": "6decc2cafcee1d92b4909d9deae8c0aaf8dd1ff80cdda0952a597f87fec670c6"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenade.png",
+      "guid": "3f0f28901da6d9746b2c90db98034244",
+      "sha256": "2310e18c5e1b4120620f981b625d929b32f7698a0e3baa693f83f191ed1859b2"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenade_blast_00.png",
+      "guid": "e5f2901dfa5d33a4bafaf46a0bbc9971",
+      "sha256": "7bdfe55dad7c18c2bf5ffee90484885548f392301ca27786168e87fda10f5dce"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenade_blast_01.png",
+      "guid": "2e57cc06ccecc8a40b53fd822bb557f0",
+      "sha256": "813a99ae269714b42aeff0ff04239ac61bfa429bb549b547bfb31d8e20348ee8"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenade_blast_02.png",
+      "guid": "4a4535bb642efea478a9e7ca0fc11c63",
+      "sha256": "8819bed80333b6d69b24253e2dd6ceb905d3b43152053428b4ce643d5d650cb6"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenade_blast_03.png",
+      "guid": "cb4493228be188845a8e6ccc073feeda",
+      "sha256": "672ec9ca410d5b7c163bf3675d20b93259af146f1e46597f330baeb68a475a1a"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenade_blast_04.png",
+      "guid": "b19124cf4e3efa4448803912596f524e",
+      "sha256": "8abb4ed5a50991f268c4f5b5ad346a4a8b2b486effa38bdb94177e0a6d85885f"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenade_blast_05.png",
+      "guid": "4c103b6032d59b14ea75336ae892d575",
+      "sha256": "7811381eed1177b2750b3ad54b04bfd34ca379e19f5266ad8619558e8d376437"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenade_blast_06.png",
+      "guid": "424f2bda81e51614285e0b6f7094a1fd",
+      "sha256": "fa970edad6fdb054c865636ff75577436b2cbf2eddaa16ace957241b2a8973b3"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenade_blast_07.png",
+      "guid": "79aec7a57ead0e94980a7b79c393ea73",
+      "sha256": "15afb4fb64e200786bb5cd9caf8e99b7868259ff69e9e13a3802d7256969e171"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_00.png",
+      "guid": "53fdf3d303096bb4e92d79da5765cce6",
+      "sha256": "ff578dede4fae7d4d73891fb88a99190d8e3586017c36e95187e5e5636fb03f5"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_01.png",
+      "guid": "110fd7e99b6e1bc4488282f3d4df978d",
+      "sha256": "c6f11c374f638fb99113cc8ded9222fc0d83baf58752a7ced3f913715e19167a"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_02.png",
+      "guid": "756b1de17f13d974fb5686250a9cb7d8",
+      "sha256": "1763912767ec6ac52da3fbe41a003bd8cb07933f7eb57c0a9be0f3f32bf72fbb"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_03.png",
+      "guid": "40f4b1ed67daa4b4fb1086aab057f4d0",
+      "sha256": "55cf35c0c381fa3388d215b36ee3e1687774f59833ea2425bee03e27cb8c849c"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_04.png",
+      "guid": "2c88af9dfa6fe8642934f12bc3c3b56d",
+      "sha256": "5c5c2eac486a3f95fff22ac6970e221f37cc9e06d998faa64270020f1a1addcd"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_05.png",
+      "guid": "df85159d21164a0428a5eeb04cceaf38",
+      "sha256": "a0d38648ab280dc5fa6b87cb5cb3aed6f576bb99ad95cd016e3d7646dff668e6"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_06.png",
+      "guid": "7efe272698260b14ca78f3fdb5de3376",
+      "sha256": "f5178a24bdbf01d9801be2611cbde3fc23c2209395b9961872892ede84e9eb2c"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_07.png",
+      "guid": "e4d054aeb6a2df246be719136130142f",
+      "sha256": "9453cfa6d7c6f77b268cdc6272a6dbefa33cf4e4861559920af81b0cb7a735bf"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_08.png",
+      "guid": "65814b77ac4856b438b96d405b237aad",
+      "sha256": "992a4533ef01d55bea399cc2ab27e7bd0f64dfeeeb1d599efa194b6e09d7b594"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_09.png",
+      "guid": "b2cbe01952e62414787e0f24e03bf41d",
+      "sha256": "c9fbbbae3611fb923485cb71d17aa259e7dbb4c3ee2468e07db08156acfd7ebc"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_death_10.png",
+      "guid": "c9101cfefd207b441a2c7965e8216747",
+      "sha256": "0586171e9c1d9f4035c1bb4250e4f17e49eed994c01200a182d21a573dfd1d18"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_00.png",
+      "guid": "3edf8d001bbf7684c9901752ab3b8716",
+      "sha256": "5e098dc852fa5d311972f141050790d11c6c4d1297deb49e651e466950bad54f"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_01.png",
+      "guid": "e29e0e9294ac8c846bd3cc49661da46f",
+      "sha256": "f74a24755d97ba7c782f27b9edd493030add53ecb9d725cb5432ee1b9dd3cea8"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_02.png",
+      "guid": "c0fe36cdef4486b4790ab27835a0445e",
+      "sha256": "917c2614b618a5e00a1a624728b79269c9b76ffa26f176bdf3be36640db94c0c"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_03.png",
+      "guid": "c04f31b95c26d6e4cae1b443c4b967eb",
+      "sha256": "2febdbd1baca03c11c9382453697f5c04eef0d291837a58d5339881cb9c10d31"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_04.png",
+      "guid": "0248179bd436bd241aee12981e509b85",
+      "sha256": "5f3ede67d58292f143dff5c4b0d784680df4052eb794217b954514d29c26553c"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_05.png",
+      "guid": "38467a2a7cf93fd4c9cba0452d084ca7",
+      "sha256": "46f573953090077c4c86c4ea5e1d0677e07511c2d80635dd1b06e2426862f6c2"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_06.png",
+      "guid": "8a4311fd0bc0dd54bbc1d3509f7364de",
+      "sha256": "ac224bf9d54c648653e5fa93979ea1c99dce4fe5ab07bd0f988b65de603df770"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_07.png",
+      "guid": "7000845fca2c8d2458f23a74076c7048",
+      "sha256": "ebb9eb6438720e97aeccf918fea8ef6065bd43afbd3bc46e2f0c9c3d2ac6eb7a"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_08.png",
+      "guid": "473811576f9d9ad4d9d38938f8c66ebe",
+      "sha256": "ab2e39e2521359f033725d7979bd65b2d2eaebf7016c6022dbcadbb9656e3539"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_09.png",
+      "guid": "57f31296fc3af9149a47c12692049f09",
+      "sha256": "2a15226bdcca5bfac71ca8ddf658c6070425816173b0f4b96d15dda6de4027fd"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_10.png",
+      "guid": "fb4f64e6d90946d47ab468d3ce5831eb",
+      "sha256": "a0d462b06560deccdbea55dd949e95745f2dea7cc822484ca3016810a0e3993e"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_11.png",
+      "guid": "41bb7b1caac963e4f8bfbe835975cf98",
+      "sha256": "26cc86c5ef54275a7fe45dbcb60e8852a59a3368ef99912d4fafbc5274d5e015"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_12.png",
+      "guid": "ff0c2bade7e5dea4d8fb6132f8886bc9",
+      "sha256": "78ef983e8af21992fd0f80f5e1ede13d8be996c6256c364f6721e5f2ca57e5d3"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_13.png",
+      "guid": "799fab818e2e8754495b98e0dba0dcd1",
+      "sha256": "13af782c51d274a4b99f8375edb6260840cf613c34383f5c418c1a6845b08444"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_throw_14.png",
+      "guid": "2959eb2d5454b81419df87a49711d5be",
+      "sha256": "78171b88f2aca7b0b3013b492bed75a3fa4e947986aed8fcf96a01263e911f98"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_00.png",
+      "guid": "10f423d3d13346649afde6ab37f22adf",
+      "sha256": "1f88ec8af719705c58c47658b651e3e76b809a6d4d016c452145f25eada666d8"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_01.png",
+      "guid": "9a6e18b109965f341953596d1d2cb3cf",
+      "sha256": "bf66a712cfd7cbf8d83a5d467032293aaf8449f261aab1a13cff59c4a4ac13db"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_02.png",
+      "guid": "224ea4585c9d4f74185c7de50531411c",
+      "sha256": "cb87cf8c50f7e7326e25a888355b804194415bdd0e839d7c8e8aa198db2924b1"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_03.png",
+      "guid": "81d0e9c004ebbdf44ab60912ea6a0bd2",
+      "sha256": "faf0121120ceac9565f24eff60ddef16ce3a57a52febcf0938816ab15f44388e"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_04.png",
+      "guid": "520e59842bf3db345a3b9eb57aac8239",
+      "sha256": "414b89b90f88ad87cff1876e9e8fa7324680a3a87f9333751cb2f7478befdbdb"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_05.png",
+      "guid": "4ccf9d6eed4970a40b0f63b3a8716835",
+      "sha256": "3edc3be80475f83661f55da34f700e779ddb2df56fa1e4dbd090b060df909e23"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_06.png",
+      "guid": "3d1b63a2dc0d8c648b951ed43bd7386e",
+      "sha256": "62c5c6b217a92f8678534e9059bca1dd02f9ed8327bd4f724db98c5526b63a79"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_07.png",
+      "guid": "7a5823424fd74c24ab3bb7fcfd72d9ce",
+      "sha256": "d315b1fb4352849e99e4622aea7a03eda5239926e9b4a9305286d3ad401e7206"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_08.png",
+      "guid": "6bb18941754f9cf4c93d2d9ac630623b",
+      "sha256": "af1f82520f3061dde60a81057c73172abad23a510b538426fc6606a9039f40ea"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_09.png",
+      "guid": "64c6c23e016d31e4d8d389f554cf9a72",
+      "sha256": "157df5e1a1db50ed8c06b11835b08f227f71c8d03ffdc94110291826079b2c14"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_10.png",
+      "guid": "8d2b76848d4e61a41be93068f1abd3f6",
+      "sha256": "41b2f9ad31bd99eeb2f578875e483d91fd267a2553a874e5d6c3959d75595fc8"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/grenadier_walk_11.png",
+      "guid": "379753d78611cca49849676af2211e18",
+      "sha256": "b9f6fdd12a5ae68f7912d97ac1603e2ef40ad9502e340fb62d6110d84a556a5b"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/hmg_held.png",
+      "guid": "8d53744839498c8499d82199c15b1ddb",
+      "sha256": "4e1eba3d4db56d01e09c82ca69658353bcc3d6a64229142e20aa1240c576c692"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_00.png",
+      "guid": "20d90d3762e25b24ca412eb6243b2a72",
+      "sha256": "ff578dede4fae7d4d73891fb88a99190d8e3586017c36e95187e5e5636fb03f5"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_01.png",
+      "guid": "f43d7ce58cd5317498e07b8a89d9b91b",
+      "sha256": "c6f11c374f638fb99113cc8ded9222fc0d83baf58752a7ced3f913715e19167a"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_02.png",
+      "guid": "45b737f849295234889ee56b15bf3450",
+      "sha256": "1763912767ec6ac52da3fbe41a003bd8cb07933f7eb57c0a9be0f3f32bf72fbb"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_03.png",
+      "guid": "585333af03121ab49aa707dceda47458",
+      "sha256": "55cf35c0c381fa3388d215b36ee3e1687774f59833ea2425bee03e27cb8c849c"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_04.png",
+      "guid": "40250a5b5d3c7334a930032bfa345030",
+      "sha256": "5c5c2eac486a3f95fff22ac6970e221f37cc9e06d998faa64270020f1a1addcd"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_05.png",
+      "guid": "fada9067fe20b5e46bad25a30cc50d82",
+      "sha256": "a0d38648ab280dc5fa6b87cb5cb3aed6f576bb99ad95cd016e3d7646dff668e6"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_06.png",
+      "guid": "7b99ad4d5a7801c49a85f87179194abb",
+      "sha256": "f5178a24bdbf01d9801be2611cbde3fc23c2209395b9961872892ede84e9eb2c"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_07.png",
+      "guid": "6e5903936cfb56443982e8946e34b036",
+      "sha256": "9453cfa6d7c6f77b268cdc6272a6dbefa33cf4e4861559920af81b0cb7a735bf"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_08.png",
+      "guid": "4aff5db6d8cef9242855629e7fea676d",
+      "sha256": "992a4533ef01d55bea399cc2ab27e7bd0f64dfeeeb1d599efa194b6e09d7b594"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_09.png",
+      "guid": "e53c9079142fec242b446c54dcd8388a",
+      "sha256": "c9fbbbae3611fb923485cb71d17aa259e7dbb4c3ee2468e07db08156acfd7ebc"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_death_10.png",
+      "guid": "498d62286f6bcf94e9f8978e6a5ad6da",
+      "sha256": "0586171e9c1d9f4035c1bb4250e4f17e49eed994c01200a182d21a573dfd1d18"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_fire_00.png",
+      "guid": "b41af13374f1fe64b9fe3461d7899d66",
+      "sha256": "2a435ef05bd8e84fa235bbb9975e68aece4bdb59ecffb304e956fcb06f313d09"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_fire_01.png",
+      "guid": "59b02d6098d575a4e920a7f3d7fdfe51",
+      "sha256": "604c296c67d4839ff1f8ba9843f6d8e21dc5903b94d3510d7f939d25f4e13320"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_fire_02.png",
+      "guid": "8f58853baa2e4204d8d6faf2de70c0c9",
+      "sha256": "2a435ef05bd8e84fa235bbb9975e68aece4bdb59ecffb304e956fcb06f313d09"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_fire_03.png",
+      "guid": "d8eeae80c69e2314aaf0d17f7a680246",
+      "sha256": "2a435ef05bd8e84fa235bbb9975e68aece4bdb59ecffb304e956fcb06f313d09"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_00.png",
+      "guid": "81b967996aba244438d93cadef98bba2",
+      "sha256": "1b64a25289cd0030959df9a61c1ac079d28917b2e0df7218127161e589127c09"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_01.png",
+      "guid": "d59c73c64025ba245babf2d5d695c102",
+      "sha256": "f1b87f8cf5301c9abfe9fee23f16ec17439a970e1d5cd8023d26fae37c49bd53"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_02.png",
+      "guid": "e84013559b6e445468be56291da77536",
+      "sha256": "13383a4f2d179799c9fe5031d6038ce8028f46e1720837dea81065518780df82"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_03.png",
+      "guid": "5b4fba920c89f51429138f36903d3039",
+      "sha256": "fbe8f72e45c005b6ab71873008032ee6031fe4e65312b9c0a86042beb15b9aaa"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_04.png",
+      "guid": "9c4527e3d51c8454f8825189155b77ac",
+      "sha256": "20569a293f78667d8183c97ab3387a6a13ba937e05d432f742ddf473e651ed4b"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_05.png",
+      "guid": "c633bd09a95c0d14d9795edf0fd93f8f",
+      "sha256": "c5b6fa2388d9c844e2670d238f6c203789861bb97b0c6629d79065be6fb61919"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_06.png",
+      "guid": "5a767ca932bc3a84e9e533c56c4e75cd",
+      "sha256": "c8b8db07382b0c25903f948bf31b06e2ca6d4e6524d2c357c5d485a148c8f4db"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_07.png",
+      "guid": "1d7ecffc8c44c4441883e4885835723e",
+      "sha256": "2d8f1f586a68a040e797d2988567715aea677904c901d17c6e1be983b42e1556"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_08.png",
+      "guid": "141d6e87633719a458ef78b6f63fe043",
+      "sha256": "0c3c988b2ec3abc2a633ce0d238ff70b9e008930520c4dc18f48e1d2a1190fff"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_09.png",
+      "guid": "6dbd54699f16dea4d96a86c9b0123b94",
+      "sha256": "8818675f72063f38243dc095a9f07d3898d50244127a1434aade637db75ac9db"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_10.png",
+      "guid": "5acbf16abcc12be43843d0e96fc47af3",
+      "sha256": "88341c3ea9a1ba79bbe440714f419105ad0ebd05d358f7f31cc1284741462181"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Combat/rifle_walk_11.png",
+      "guid": "d71614a1d9b3edb4597439f0e3a183f0",
+      "sha256": "b16fcdf0b8ac568563ae1071adda5f7d528d6646908f9886d334d7b620aebe3e"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Mobile/biker_drive_00.png",
+      "guid": "ed62ac8dda7e7054fa9d78fe926efedf",
+      "sha256": "d97ccc575deee0b8b031471d7fc7c6d861a06667b6aae6858913b411b182595d"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Mobile/biker_drive_01.png",
+      "guid": "115ec0de1a7474c41a67febe875f6e81",
+      "sha256": "3abbae5d2c081ad17269aef13dc36c6d76638c8bc0c1e0b063ccd26754655d6b"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Mobile/biker_drive_02.png",
+      "guid": "d21a9eecb2942ed49a0dfd00a69e266e",
+      "sha256": "9907f0ff4f201ea631852c67832f89980eda070cf73c96aa9f7926b0c885cee4"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Mobile/tara_fly_00.png",
+      "guid": "7c8a5fe3b75b18849bffd7a5692f94ba",
+      "sha256": "9068b5efd55162d821f8de35469a50a573343c5a02e4335ecc334f902999d2fb"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Mobile/tara_fly_01.png",
+      "guid": "aeb74c8ff2149a841b187697d6f109f2",
+      "sha256": "1bb432477f095164fb9d05b2ba5cb9e3345abb02b2b60db77995ab9c6ecc988d"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Mobile/tara_fly_02.png",
+      "guid": "3cea4eccd268a414388372a26dfaeaab",
+      "sha256": "d8e5bc745106b6eaeb1ef5b6e274e88ca7f307ea8b4b048243dc9d70d1ce88c5"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Mobile/tara_fly_03.png",
+      "guid": "b9585973d22870843ae158a71f06f7e3",
+      "sha256": "af1ae54bb0c22d742ac5b2daa190cd504c906fd634fe1d0b0053536c8ce702c2"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Mobile/tara_fly_04.png",
+      "guid": "6b04dbd1be2ec8d41b3c32594be80c80",
+      "sha256": "a7353982076f17b47485f8110eccd80c1a4248b98b8d941a0405777f2e0d4630"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Mobile/tara_fly_05.png",
+      "guid": "9a438e5a446b9ee419d31649e0f02fef",
+      "sha256": "80c20a8aaad10e7bdd9330e39be712c191d66ef08377b9a8803dcd3fe538ae42"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_00.png",
+      "guid": "1251387069760f74099a02cb8fa3b6dc",
+      "sha256": "290ae9a69316080c6ed68ad925426a55939c127e0cca6ca844907c745bf4aefe"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_01.png",
+      "guid": "743d6ebe381a8fb439137c6ba44ab6c3",
+      "sha256": "995daf1e6d17eac5f0468b57006f4603db85695f68f5c9020bbb0c8b0e727910"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_02.png",
+      "guid": "062025515b907804588e91ee6d296810",
+      "sha256": "a60f4e07a863c3f7b391c3610118e31ab369fe258009a547e980088a61a1a351"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_03.png",
+      "guid": "3d586aa8e29fd974e9370d94c0cbb770",
+      "sha256": "b4201160abcb31276f2b0e88b48d377a0939b545d794c54353023906cd9fc349"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_04.png",
+      "guid": "e0a7e6646454383418ae6054a153e3f3",
+      "sha256": "dccab00f54cab9aadd175ae40b31f2f7a9ae8757370471b0a555711dc39ff8cc"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_05.png",
+      "guid": "f85cfbc159d08a746b5e1699f4e2ed36",
+      "sha256": "744a0e6c1d562cc476b461aa7214cdffe30912aa61c90b0faa6e28b887cbddb0"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_06.png",
+      "guid": "e3c84c5758b37424fbf80f83d46f1bb9",
+      "sha256": "aef8e2a4f28947e8f49911accb9c4ef34a8240382c2c6a38db15f183ccdcf423"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_07.png",
+      "guid": "6fafd562f9c1b164b9de99f9953457f8",
+      "sha256": "b084e9c2d739462bc0517558bbcf0f9836d9cd28407c218ec1e8b35ea51a506e"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_08.png",
+      "guid": "971af98492b27ae4984187d1d07d4f3f",
+      "sha256": "178d8450ac4f7cde28de867ae1266ee9e1902ebd72d8a740b1fbe2be35abeabe"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_09.png",
+      "guid": "fef7e97494a98c445afdfe0826ddd7fa",
+      "sha256": "1d339519a0ee7fd6fd7d0f49259951eeb1f4906a81c81d392e62e7fbb8c3cb30"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_death_10.png",
+      "guid": "d6bfa016a17c9934a815b6697de88368",
+      "sha256": "ca179278f647b5af3ae056f347210ae429932c7c88ff50900e66312bb290fc42"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_00.png",
+      "guid": "df9796c7bc4631a42a3a757b4343fe54",
+      "sha256": "96907e28a386d9cec6f55963b3026e406e56d138baf44e51688974072826da59"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_01.png",
+      "guid": "c576659cce9c82647b50c48f59f51ca1",
+      "sha256": "e47f0db99cde2249717a53b5449c6af7a0cff09ef0f72fa976a966abb2e15da7"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_02.png",
+      "guid": "ebe23219c14c9944780d5cc566b08e25",
+      "sha256": "7a9585d48e0b5387cb9077147df78ec7b174c5276126bf3bd444e75daae27c44"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_03.png",
+      "guid": "768b512a2c99c4c48b75be52cc56c287",
+      "sha256": "0bf9ab53d5dc70c77cd802cac4d322727b5aca17d0d86056617146deae3fa74d"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_04.png",
+      "guid": "840d40725d6d2c84d8faeb82062290ca",
+      "sha256": "776ce000e76053158b2307faa71acedbc865db1a5775fe1393cae4edf9298f37"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_05.png",
+      "guid": "9fb1381afe9038448b5e516b6e637006",
+      "sha256": "899b469feb71fd09445bdf7ae4902d2813f05a2e979b94a8b559c61068fa92b1"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_06.png",
+      "guid": "9a918264b596f2249b7a7ed0044fdb9e",
+      "sha256": "9d95b96f603761668a2d206abbfa8dff5009a55e908e2a3202b60bb69b4c9183"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_07.png",
+      "guid": "42e5f629f4ed59740892e60479edd912",
+      "sha256": "624bc46217cf5c750c8c30323bc900fdf2b07fc1c917a3f0c487f93115769df0"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_08.png",
+      "guid": "4f0b2afe125213a4cbeb7601231b0590",
+      "sha256": "4b430576f937ac3cbf5ea5f6a9b8ced2334513ad9af69b154f417eea30804474"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_09.png",
+      "guid": "c70bb83240f7ea6449ce0798a8de9fd7",
+      "sha256": "8fb638529636be3008059aeba9a6dda576ae1617caa5bd4f2b4fda80a09f93f9"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_10.png",
+      "guid": "603ee8932d35e8347978bbd3975555a5",
+      "sha256": "58e467524cbd692fc4be81befee3a4b6f879de11158dd7b990cfac6713a89f75"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Rebel/rebel_walk_11.png",
+      "guid": "e1866e31fc72e8d479dd0872ba9240d4",
+      "sha256": "2f702cc28355260405677195341b41d2e52b7c482fe0b63aa9b1aa315e5da3ec"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/barrel.png",
+      "guid": "a578a01788fce4244861716836374f38",
+      "sha256": "6df31aaa0c86e152e444f2988fecdf92dc0f878a9fdeeb859c039d25acd98ae9"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_00.png",
+      "guid": "2e975196b6df4b34eb1e2da4198977bb",
+      "sha256": "8c7d81be612ae6e83a3ab3371289e9fcd1f25d1c1ded41a8c90251e8429dbaa2"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_01.png",
+      "guid": "5fc02b8d514bd594b810aeb78c0dcb0e",
+      "sha256": "4e12dd09a61c5885bfe4938c4f9717829154aa51a61e3b4f5ae3b86512f932cd"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_02.png",
+      "guid": "c140e522fe572cc44959c6342656cbb5",
+      "sha256": "62720eae2774f7ce5556e2cf2253dc7046902fbc12d8fe443094ca0595f0cffe"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_03.png",
+      "guid": "a0ba37a144528c64a95dc7fbe1224fc0",
+      "sha256": "92754d460cbc4b5a39f23d847725545f02bf83dc3759094121e8c03392d2efaa"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_04.png",
+      "guid": "642303642b23e1c4187185e14c016114",
+      "sha256": "f9b0b4329858c73e7310ad7966486a46be4950a9013b28bf3059eb2dc531734e"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_05.png",
+      "guid": "c23bb282aa7d44142bdbfa617cb9d8ab",
+      "sha256": "8f23325cce0e1f2abbf0183559cacd1b5a7123dff96ceafb6688862f1531d0d7"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_06.png",
+      "guid": "3fedd605c2ae6cd419f3b8f3ee2d4154",
+      "sha256": "2ef74456d8de694ad640511ced96050c245114df0fcfe64eb9241b773d0b9dea"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_07.png",
+      "guid": "7e0fa79f8c5f48f49977d19912770bfe",
+      "sha256": "0deb5c6ddd567802d0807fda81339015acab5b6737b2f40817ab43e9e9d6a6a0"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_08.png",
+      "guid": "9156b40f3ea51474384f366b79020279",
+      "sha256": "85ccd1526317843ec518e6582054f2ebadd60f98e49cc7ed49d281093c10e731"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_09.png",
+      "guid": "899171d20856a2a44bdc985994f3c1b6",
+      "sha256": "d0b717b3e24b030c3978581945348084f8ffaf50a7e6f48743380676c248de88"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_death_10.png",
+      "guid": "ff84e9ce17b241e479a9fc5fbb926647",
+      "sha256": "85ccd1526317843ec518e6582054f2ebadd60f98e49cc7ed49d281093c10e731"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_fire_00.png",
+      "guid": "a37f71eb16d0fc24e95767780e4ce337",
+      "sha256": "e10b5b8a46acda1d9be428fbfe727e87cbd5e163997fe1ff5c3f8d8311a2063b"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_fire_01.png",
+      "guid": "cb60dccbecebffd4f8e666307161edc1",
+      "sha256": "e10b5b8a46acda1d9be428fbfe727e87cbd5e163997fe1ff5c3f8d8311a2063b"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_fire_02.png",
+      "guid": "7c2ec14f3e6b4a946a8e23193aecbdde",
+      "sha256": "e10b5b8a46acda1d9be428fbfe727e87cbd5e163997fe1ff5c3f8d8311a2063b"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_fire_03.png",
+      "guid": "dc121c0dabf0a14458e2ab6b0f44f5dc",
+      "sha256": "e10b5b8a46acda1d9be428fbfe727e87cbd5e163997fe1ff5c3f8d8311a2063b"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_00.png",
+      "guid": "80e8ef146e2aa19459b830303a8d8079",
+      "sha256": "271f6ba48b33bc35cb8b18788207851938142d5d70044acebbbc0b8fc77a3d56"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_01.png",
+      "guid": "64a8a5fc7fc33144daabb1a9f84fa297",
+      "sha256": "4b7f9a220be3031bddd79e238deb4747b405e9c28bb24e684806e93a2de750e1"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_02.png",
+      "guid": "5d12fd92a62fdc04b9b76cdac1e957c8",
+      "sha256": "f90da3e314b75cf512d5c7fba876c59b5e6be83ad382f6e8466533b8bf347a55"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_03.png",
+      "guid": "b9f6e36fcca051246bef5c58f22b06ec",
+      "sha256": "90a4d894e57cba9278717cbc1a1827353d3b14fc04a6487515cfdbed53938b9e"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_04.png",
+      "guid": "c39829c1e2a909245b2be333696fdb65",
+      "sha256": "c4d37c4bb92bbdd5aec12fac7b3de8ec6756f30df96b7c66c7239a8f460413a7"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_05.png",
+      "guid": "c96540ea81a61564585aaaef4f5d3eb8",
+      "sha256": "e4aa8404c62b2ceba98d8e819a05d685a6e1d16ab729cf806e8605ba22536dec"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_06.png",
+      "guid": "2366a424bf3fb674aa6253fc429083a5",
+      "sha256": "b01b65937c8b4d028643a2dba523b76524cd85596048a738989758248eed9925"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_07.png",
+      "guid": "8943492599c23e94ea56e42b75ef18e6",
+      "sha256": "1457ee4bad4611820867d9a75e47bee10a8a4b56e16fe788715d0ffb869c6127"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_08.png",
+      "guid": "27b482abc9b5f744198d40eccff14181",
+      "sha256": "e7d7b4f7930ed49a165dbd35b1896374b80e8f73042f405885936fe7a6802fdd"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_09.png",
+      "guid": "3b379ba8b78c79f478904faf07978f5d",
+      "sha256": "ad924679e65ff8bd9fd18398abfb2d966188c8a17b5b045d8156d2aa1b761950"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/bazooka_run_10.png",
+      "guid": "df808151e06d68848a71e7c8a9d5ad55",
+      "sha256": "d8b2bc73afd150dd6c3916eb16ddb998b870593a9501fbc5da29c14884223e6a"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/medicine.png",
+      "guid": "9cdec2deba477f94c8d024f44db55651",
+      "sha256": "0aec5117f733215b6642e7ae5ab5e704638ccfb3fefcb6d31701d329c2416b1a"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/rocket.png",
+      "guid": "b46f37acf6382ea448b20deefc92fdd4",
+      "sha256": "7b8158f4e1cd1919c8ddc4e37a1b8b94c664a488ddc8b18899e343838159c8fb"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/sandbags.png",
+      "guid": "c8c810c27a6c2b844ae1ef9618a87928",
+      "sha256": "c1e78a7a0b6e4269f7db5461214f958be09686cf63952efe669eed6b5a48ab60"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_00.png",
+      "guid": "cf019c92367249f4bb75acc110711b70",
+      "sha256": "0e4b5e6aa6f31427ffc7b79630d8d1e9888bbdcf84a1af2c00f59b198c19f370"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_01.png",
+      "guid": "c170bb584aa8a604cb767fb6d93c99a3",
+      "sha256": "02c4653e3b7d4c9eaced257c6e79a2d0b4cfa3181c758b5ab53c4e6599b6fc4f"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_02.png",
+      "guid": "b1c5934388b35a144a9b923f2b739f87",
+      "sha256": "b57444157ced0d629aee2af9466e8c6deda18836b2a7ac90820de6bab0ec506e"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_03.png",
+      "guid": "835425661e32ff94c897cfb425c6a15f",
+      "sha256": "a28de75fbba92c4a0565df4972547fca19c2428a2ec7e032c3ac8000ac42d88e"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_04.png",
+      "guid": "4f7227f18dcc00941802815807eb60c6",
+      "sha256": "d101c5eb4728b2b2556872ea24c20dd6b9994faa39b726f54812d8f816ef5cde"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_05.png",
+      "guid": "9268a742f6fe80447964ab1e7d0a888e",
+      "sha256": "8626913e5c2115dfd417ccd95555dc5277e2846098fe595e8f7edeba05a8a437"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_06.png",
+      "guid": "be0ed7097966fae45ba5a60716dd1017",
+      "sha256": "d039419fd678dd4c85161df9e1414128863eef0f4d9fd944d7c59f72c5652692"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_07.png",
+      "guid": "2162856e44ca8e442a88f877a55575fc",
+      "sha256": "9f9607ed56eed16b16976e9ea31f1912c50be1b83006f63fb384edb4a1fd0ada"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_08.png",
+      "guid": "563ed6a725146f34a97367bc7118ffbe",
+      "sha256": "30538086b768ff59265ddc1a7f315123cf81ed3f0f66ced12af102f61792d9fb"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_09.png",
+      "guid": "4c5090ee07d1be2438611c1ab42a9dbc",
+      "sha256": "691b47a94f83740088196020641256f439d9bae9fa1bc7ab7b697cf4664977bc"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_death_10.png",
+      "guid": "282873ce81552af42b80de2af6ec4c2e",
+      "sha256": "eba64059dfdda03498bb88982100f2c4914b77c8333828d63e3d58fdbf550ed9"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_00.png",
+      "guid": "5b995b57f55cccc4889bc6155a1b3e67",
+      "sha256": "f0e7b914b599eee394f20764d03377fef1da83e1d623741dd29ac3678090a7f0"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_01.png",
+      "guid": "119898d47d3026048b39a4be010b582d",
+      "sha256": "4b316526c4d00a926cf7c998c9dba17384815bb6a389a4a85cb0faa20419d991"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_02.png",
+      "guid": "92ab98dfdfb1ad746bcea377a2d0543c",
+      "sha256": "e7112cc42cabb275a68f33dcebbee1a367db7cafb8b8d788d2f31c33c19781ba"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_03.png",
+      "guid": "35ea71d9a75ba5944bb896fa761d0ca8",
+      "sha256": "6289f0bd7e2797136ebc29d61566e1d408ac372e8ba6b34f5f79339570ab3bb5"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_04.png",
+      "guid": "df38779a66ad91a41aaccbb72f81c3b4",
+      "sha256": "77122c77d4709b8b262c03dbcedd323d01fe649599a9fb4cf68a657243a6fcd8"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_05.png",
+      "guid": "aa05e3db04d2a454d85f01b4f9bf2d5b",
+      "sha256": "59b4f2be5e5d08ab9d41221c952decdd10ffdb3a55322b112601a07135f8a945"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_06.png",
+      "guid": "d14b243ab06f2504f9e091f01ff04d2f",
+      "sha256": "f9ec6d8e86d384f93945853a4e3bc157b0f0129ce20db6528b19320108b6e04f"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_07.png",
+      "guid": "e537d3aabe4854a41a4fe0095b0eceda",
+      "sha256": "3c42c943379b7d24bb6d9b8589ed5ac2f5842abe1b636f5cc76872bdb62d0547"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_08.png",
+      "guid": "46a580fdeec552245b4ddf5251d919ed",
+      "sha256": "9c1a09014db14eccc65777419ce7063e779a88391c5c31c6d327a425cc103ab9"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_09.png",
+      "guid": "6db965c482ca87448b3a0a86242e9be6",
+      "sha256": "edffb262216d82d101c26a6deca9e9eb1e900efe751239a01264a63d05175335"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_10.png",
+      "guid": "e17398d67d3346e43b79a79c2618268e",
+      "sha256": "2f4713f1b8e55c2e163f6a2961f017de0368d1db85e76046ec8e2ae056af9bc3"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/shield_run_11.png",
+      "guid": "9b4a4cdae2318994e8d26995658fb1fc",
+      "sha256": "4f549810d374317321a2467c823973ce239ca423e183cdfce3df405b7e17160a"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Reinforcements/wooden_barrel.png",
+      "guid": "092f7df17c593a843b71787d30421797",
+      "sha256": "9a462053e9804cc0e7c8ee7f8757af6ea6ad575c83555e54019c648559847fde"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/rifle_warning.png",
+      "guid": "8597719073ab8e84daf5b6baa8c48537",
+      "sha256": "5ba7a02fe2d4eeb2a7132de9a140bac60b9036041d3fcdbcc461b58348176ee9"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_00.png",
+      "guid": "4e6249bfa123cc547acd8eec1187b719",
+      "sha256": "6249d5b8731688e591c2e3aaa6c3167e7acfef6a1fe38884379dbfe2b30630bc"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_01.png",
+      "guid": "2a08337d75a5f3044823392309b3831a",
+      "sha256": "8965ee9c5e69c0d916b058edfaebc96f0d64461d8d7675a1f72d0a2277e258a8"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_02.png",
+      "guid": "b283550fd61c40f4b892771ec45ef400",
+      "sha256": "55322bec3f9666bbf87d690b3b2efeff579573da5f8132104ff7409ad2038283"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_03.png",
+      "guid": "050c425f765899640b88a4ec281dbde9",
+      "sha256": "12f16304ab808de89111360a4dcc212024dc7cfa6e5655f6d7ab8e7fa2e23029"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_04.png",
+      "guid": "670d99d2188fa49408226ae950c54a56",
+      "sha256": "90ce4ca8779350236db7dd6a061a765bd185f5b66503e381de6d152660b0d22a"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_05.png",
+      "guid": "6514079e9bcc0a44da20962c864f9f04",
+      "sha256": "3bc59c3533fd754cc2d3a0f1bdf063a85723f4dc594ca12f5b11152341401ac4"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_06.png",
+      "guid": "76bbd3578356310459a5b54553cec92c",
+      "sha256": "a910c9271cc13b3d008fdf37520eed1a67cec151f84638352415dd6f3295ab5f"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_07.png",
+      "guid": "d14ca499a692cde4ea221bf00377af87",
+      "sha256": "eb2c9b9480d40e8153296728cdaeb56d579c35786cce3990916c2788efabd9b7"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_08.png",
+      "guid": "d8b878ca0e6cb9c4ea11c38b0a93fa32",
+      "sha256": "e25fa1a5b4d50da3e88d963f5a9ef20662cf37fa2898543adcdf071aa7901f82"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_09.png",
+      "guid": "401a9ca6483199544a68d9df793a9fe3",
+      "sha256": "cc3bc443ed2a98a372127975c39e19bf032abab3ae69a0af9e308740ca11d25c"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_10.png",
+      "guid": "26dac1d0ed644a041b4cc62614b07b39",
+      "sha256": "c78677b4d38af07ec3b1f7a0320464fb65ba9a396b2e5786f9f69b70888a4a89"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_blast_11.png",
+      "guid": "036c5c7dcac837d40bf279567f121167",
+      "sha256": "dafe625b57787814d5c34878bb7bf91d88c0e3be9686b01b3896600d1c4fab46"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/shotgun_held.png",
+      "guid": "69ce004daaf2e184b8645fc256a1e28e",
+      "sha256": "72441f1338e5b007edc5f5537d1f510fd6fb8d62f08df2bdf1482ae09cc2e41d"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/s_pickup_0.png",
+      "guid": "866b60e9358605d4aab9fc3d6e531573",
+      "sha256": "eb43260898afc586b171c44ba3b96d2aac10026b1e108430043d810968dc5f2c"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/s_pickup_1.png",
+      "guid": "c655f04bfd67d7446b16c908ff89ac09",
+      "sha256": "0ca18b37f2b323df35f071eea0d7b5c23101573b979c629493e75aac63907345"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/s_pickup_2.png",
+      "guid": "b6f211afd50290a42b6bc0bd65c25567",
+      "sha256": "ad970394099d8693a8490017edbeabd301f517472c79b057b73bb98005c03bb4"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Shotgun/s_pickup_3.png",
+      "guid": "a393df2f7653e1c468d3aff953df53ac",
+      "sha256": "666e8b85287b35865042af1b140a7f0be045b49acb3f688e5ae5ffc808291168"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms1_beach_ground.png",
+      "guid": "6486703ddb8f16b4d993e91533cca8c7",
+      "sha256": "f65c4892d8bed28bca53edfb5ce8013673f0b1b17b0766a8abcaea2ad28fd7e4"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms1_crash_coast.png",
+      "guid": "efe4ae0bca185d8499439867c4f9f383",
+      "sha256": "1aff31d81d1101ff3776c10d6e859f32c26f3d5507d5b2c338a52d2ed7cb6888"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms1_far_jungle.png",
+      "guid": "9df31c907ad8a214aade2e6acf9ea3a0",
+      "sha256": "6b713b3005d5e48ecd7eecba569ea75223331faa56ff437027ace2b3c34d8744"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms1_near_jungle.png",
+      "guid": "1c63767d3beb8c5478d10a5a60955cfb",
+      "sha256": "10b1229d7224423cad2941fe15442dc39109ad52929616f1835e7df026fb0b89"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms1_sandbag_barricade.png",
+      "guid": "b1d505728baaca24689e17dbbd3b83bd",
+      "sha256": "61c00591cdc292640210758e5cbf424f517829d8d370c148c910e70b4277a2fa"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms1_stone_ground.png",
+      "guid": "3b5ac98c2e7c10f42b0e5894aa22d2ca",
+      "sha256": "685a3224b3d7a72e7a996432f5a4c7110485933a42581e35fa5fceeb2e4b0d69"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms1_temple_backdrop.png",
+      "guid": "d9c5b5c8347729c44909db47ec4d18ab",
+      "sha256": "43edda25d87d9c1b5a33ea0e3e466cabbb095605e1a4c4936be9db8e18a2667f"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms1_village_hut.png",
+      "guid": "d41b32cd2e1493a408e1ac543258f3fc",
+      "sha256": "0c1af485c072c6c5da68997287ce4363a4998a25d35a1e1d62ade8466b1ed021"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms1_watchtower.png",
+      "guid": "dc0097d838007fe4f9167b43d735868c",
+      "sha256": "2f27019f5d627a2c79e1c431d8e76edc97f06d5d5ec80d34219a600725296660"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms2_factory_ground.png",
+      "guid": "0860560056ef77c42a901e8e5e0a8612",
+      "sha256": "cba286c3d33c2864401b7b7b2ee3990db28eb308105d4c060574b88ae0216b4f"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms2_factory_wall.png",
+      "guid": "ab6b998dac081714e90b39fc312a7010",
+      "sha256": "135544ad500f13ec54f8198a4e1bfc7b6630c0741ccc21b0e3d0d23361d2ec48"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms2_harbor_skyline.png",
+      "guid": "3bcca9b50d6d19f42829c951432ffa0b",
+      "sha256": "441408c9fc4a2fddda9e63875a17cf2a93060b14388986d14aa4365166e8f3d5"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms2_harbor_station.png",
+      "guid": "de3d227a3603f4e4b85593cd5ad58c45",
+      "sha256": "e259a9f83f8a022cd46404bedc5210a0689a85754bdd1b236235a3e9701518f8"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Terrain/ms2_rail_ground.png",
+      "guid": "a3092df77cbbc8e47bf03d2968287bba",
+      "sha256": "d330b99306016e40bb56152f37abcc50acd5f2b28eb4447dba1d0b012d3242d7"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_bomb.png",
+      "guid": "7f9d4d8796cd27846a765a094c9e39ab",
+      "sha256": "6e139626aa66ec3a7381b0c8b7e88bfc9db1d99926edf1f0ab373308eb21bb48"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_00.png",
+      "guid": "449437419753a6f40984550c86431910",
+      "sha256": "560e8a5f10748bad81c451919986fb6b499d6fe7e65a0b735938439f9c8fc5ac"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_01.png",
+      "guid": "246d9dbf372f9fd41afa4771046f8bcc",
+      "sha256": "3ec66a0b5a8577d4d606d4962c752696e3934621074c6eb61b33c2a89fa96906"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_02.png",
+      "guid": "439a4493554c8934dba61db5c9d23a0e",
+      "sha256": "9e3ddeea3ef3dd6ca01d7810d6a67b28e67dac65c0bfa1e3503906a32181f540"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_03.png",
+      "guid": "03a3e9e4f8f42f44a98d2bc3698d144a",
+      "sha256": "839c84dc6167e4789d94196d5c6681a69ae20c0876f5812b43d24018493906af"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_04.png",
+      "guid": "859653258252f72489b6fee7680aad96",
+      "sha256": "96b2d8bb85c57452abd9bcf83e5cfa9f72c7855b77ad1f99032c11df528a3902"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_05.png",
+      "guid": "d21e0e75c353bcd46bcf199a10f17910",
+      "sha256": "8e9267d8c88f8692f1e9cfa26e9a330edf23b37c698ec88847835c8518894180"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_06.png",
+      "guid": "c27667cdbff280244a53e390e5335103",
+      "sha256": "41ac384d5cb85bf5ef9d60bb248f109a8fe70621fa02ac35a01c32efd9c63dd8"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_07.png",
+      "guid": "e1ac724b2789afa4f9b583da0da33f00",
+      "sha256": "a982659213d5535c65233bd17d326b51e6fc3b237048953d918def40f999be9e"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_08.png",
+      "guid": "a96a5f32db2670241a3170eaa24e8a8c",
+      "sha256": "cbbbedc84bd741b79a0105adc2d59e36566aa713781bc1215f740c7b4050a2c9"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_09.png",
+      "guid": "f1712c480eaeaea41b45ff472b230a22",
+      "sha256": "496aacc0362d6499b3a643547c366fea412dd0e6312fe4ca9b32872a88c0f6fd"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_10.png",
+      "guid": "d0d71a55efcb57d4683ac80991ed0c10",
+      "sha256": "883ef38ef20b4a504f1e566f7e714b5f239214d089f53a32a0ce02f151792ceb"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_11.png",
+      "guid": "3030028899d707346b3d30203517efab",
+      "sha256": "ac90b136143290c076c97ca5720109aa4f63fe5db9fcf5c032c362969484131a"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_12.png",
+      "guid": "ff4fad038aaa91f4383dc9f08003182c",
+      "sha256": "c5af626e1c25d5e9641c2173b0c0d75c37d0faa2f8d85e06c742e45ff88c9cc9"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_13.png",
+      "guid": "474636b72d591154b9b1dab0e378b35f",
+      "sha256": "daf80511f9ea163d63af4e6e3ac1b8e98c8daeebb099c16d362b7cf74271ce20"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_14.png",
+      "guid": "cb0cfd415454b124fb1ce74465a2f99c",
+      "sha256": "958ef378cf49734f55e705c3c664e1e167b45aac5b5efee7ffea390eb18849f4"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_15.png",
+      "guid": "a4ce8d9d17899fd42a0a9e88167bb633",
+      "sha256": "5cf1bc4c602920d2f01f9b5dabcac25caca0ec0e4a9b847b09fa916fa2739287"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_16.png",
+      "guid": "46e2677cd81a184499fecf33a343a896",
+      "sha256": "1ddfdb1281cd7ab446916357879114c4490b633a57c5dbc4f68989aa60147e44"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_17.png",
+      "guid": "40d514deeb40ca14d84b24ee72dc9400",
+      "sha256": "0b855e6b48dd34db6f358f2a988878dec5a7eaae219339381a0207216cddc1b8"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_18.png",
+      "guid": "8dab9d01e2cabd547a8137cae6db3e46",
+      "sha256": "424b259586d346df487764e9dd662fe845d71e84ba24d4fd59def1225db98859"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_19.png",
+      "guid": "1d1b6814fb9b607419a7525ce5d158d0",
+      "sha256": "8073f8124aca8ed7580747f672e7c6d4bbc5dd25e44ffe631e30566039b31be0"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_20.png",
+      "guid": "81d9370b494612b4890890676bbaf14b",
+      "sha256": "336896b9a19600ca9e9e6897d2260685412e743012bb7bb93c345c5e25bf0c71"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_21.png",
+      "guid": "267ac0120ded68042976918bf2b5166d",
+      "sha256": "15ea5360f5b2c01fff24f2b9a3c278705085c2c6ac67718d5529a6c47e21c803"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_22.png",
+      "guid": "9ffd65a8db2a75040be85f5834a95169",
+      "sha256": "106751faa5853fe017d398de46566d938880d5ab9ea4c08cb8aeef4aed5e8439"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_23.png",
+      "guid": "5efc2538ae3efb942abf1170c6674623",
+      "sha256": "9170941f1b854649bcb8fdb6ef0011ed26962eef309d0f5169338eafef0a6edf"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_24.png",
+      "guid": "056a74b99c524744bb7acdbe67782321",
+      "sha256": "0a704eaff7016459221773002d45b189e29fb599c86a4b34874600cde22ddbb1"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_25.png",
+      "guid": "d3194b37f96e6ec48b077a2838c6a434",
+      "sha256": "92ec09952f0dfc0011f652197f0742f2993c2c6ab56bfc91e5da917b974ef6eb"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_26.png",
+      "guid": "6d221f0b8518a6c4d914c08940968ccf",
+      "sha256": "0304f2f2abc4cc5a75f35eac31cb2784bdc8bba2fa3d309977ae75d47cdf8d42"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/heli_fly_27.png",
+      "guid": "2f2aa4c0fa68e8f48b0197c9a27cd927",
+      "sha256": "c317c62ccc0365bfd049ea34947c1e0e9a5069833b4cd2f421e5a6b7f307cdb6"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_00.png",
+      "guid": "63b65dc880089da45ab07e58b0827cbc",
+      "sha256": "a8575582f541e61a6118fd54f64299b95799228f85f515fa920102b601db5ba2"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_01.png",
+      "guid": "1afb06223425d484195c4e163d00af71",
+      "sha256": "f1b97a54dfcdfee005b7f333cecf16b1396d4711f72c01a1b9ec8088db765cc3"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_02.png",
+      "guid": "f06eed9b63d90cd4e9b7789344438102",
+      "sha256": "6067bebd2512a823bd00a84bb81ab2da27c34cb01cc4803f6dfdeb1d2e57f6d8"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_03.png",
+      "guid": "06616fb19c7676648b30b75098b85169",
+      "sha256": "bcec4870a3d2f64d796144d13b7c8d54bf96cefabecdfba7cd18987567fecc4d"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_04.png",
+      "guid": "0d3173c203ec96d4f8804027518d2ee0",
+      "sha256": "99517079f9627768cc6a2d9a9baaefb11a0d1c0aa21283ce61873ce177c4804a"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_05.png",
+      "guid": "68fbd367fac7dcd42b98abc7cea56919",
+      "sha256": "523ad73455091d9f202a3e9e076626711817afe78fa94e43fd5a80121261b0bb"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_06.png",
+      "guid": "3dc9adc508c59184280b04467db523aa",
+      "sha256": "44ade193cdb2a6f2655582dc8bd0c240de47ccf42bf71a34a70e704b01b7dcdd"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_07.png",
+      "guid": "0fb8b38eb9fa18d4c9b478efbe50ab75",
+      "sha256": "b756a08f71d24f2360b0be032528582bafe1e5d834c9f0c45d01bc98ac1657f7"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_08.png",
+      "guid": "e8bb0700ee16c3a458d63a1c21a507e3",
+      "sha256": "5b7e622e4b8d8941bd1b6b18677c46f1dc4edf2474a40c709a1e2001fed3584c"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_09.png",
+      "guid": "d64e087b0a5451f42a707ad7b863b4bf",
+      "sha256": "6abe3b3228a3cee086a957f4401e7ebce39fda13f4945757e65c1775db29d605"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_10.png",
+      "guid": "494e9994e2397c14da02d570d367964e",
+      "sha256": "72a1af290f3cf0fb63205114f552e1954809733a76b101fe75064253ae91480b"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_death_11.png",
+      "guid": "68dab22ef370533489dd35213b79f243",
+      "sha256": "fab35cf0b2175e9c83ed2646e2d8a77546d552859f3d94852bd13a8290b7029b"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_drive_00.png",
+      "guid": "2080de35ba769424aa8986d27c91c4c5",
+      "sha256": "c9f9c58a6bce9301d1531a1b7cc1d8fc97111f3860677467ab1f70151ad4c546"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_drive_01.png",
+      "guid": "5d16ae7440d752f41a154e293d90e4f7",
+      "sha256": "de9f356ea526ccafd4ff57ae44a6a501a1131db68b222e3cba9b7ad486bee063"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_drive_02.png",
+      "guid": "cb9a31cd46f995845987e4972d21d013",
+      "sha256": "5f633316e08714b63cb9a335bb43d5eb0a69d54de9048ebcee0fb43b884904d1"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_drive_03.png",
+      "guid": "261360ce86f55924abfe768b5696bb0b",
+      "sha256": "487e7db30a5378daf8d029e24a8592a7679fd9edcdbe464859bab68dd062cb7c"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_drive_04.png",
+      "guid": "07ec5c4729a0bcc4696701792de60e1c",
+      "sha256": "45a7e9bb7033d8733268be8632d9d588912a979db3a5fbf857bce313c07e3699"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_drive_05.png",
+      "guid": "883d0f6c28837a4448bacaadb4af4f37",
+      "sha256": "62f2063e5f316b5a95b4b7dd11f5c1abb1b8f4b56ee0a498230582a799e02129"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_fire_00.png",
+      "guid": "651a5860926b8fb4d809228bbf07dc53",
+      "sha256": "a7c23e0674efbca4aca8933c98d7e73af5bbe6d1e66f3671e44d370b879d49e0"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_fire_01.png",
+      "guid": "b92c5235cf7155f4c95d7f2894deca90",
+      "sha256": "55681ff8fb6183f3eca823e223e41c090f970c88e0385a16f50497787ece5577"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_fire_02.png",
+      "guid": "f6b296629ebdf3e48b9bdc3b2894ee56",
+      "sha256": "dfc87ee87b91bb143dd99a8450e83550ed48f3b5432c35a102c6742ccd1c4fb7"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_fire_03.png",
+      "guid": "98088625ecca4e74eadd0f035c3a7f98",
+      "sha256": "5f5c0734f5ccec163cfe070f7a5e61948039271e80f2dafdbac3b36e1b2f4c6e"
+    },
+    {
+      "path": "Assets/Game/Art/MetalSlug/Vehicles/tank_shell.png",
+      "guid": "cd9aede8fbd3c544eacf39e732017fe3",
+      "sha256": "dd4067c1c4239cc1ca3e4fe6e9511c3bbf7564d5fb5f53084a56e600c00f335a"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/enemy_grenade_explosion.wav",
+      "guid": "ab364e33d78a818479343285473be396",
+      "sha256": "1d623dc76de4e7530f48154f672f996c5bee0b4a4951d770d027d2e4e772975e"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/enemy_rifle_shot.wav",
+      "guid": "f3cc032fe367387478c860932edb2dfb",
+      "sha256": "c4af22ebb1c86af4019051f2c30f63d90b10b89530f5e4e5e41b16154e857e8e"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/hmg_pickup.wav",
+      "guid": "09f30577a90a4a44ba4bc6c2760999f0",
+      "sha256": "e697868e1865fe87895d2fd117279c7bf35219f59566a2f4a70e003ccf56b044"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/hmg_shot.wav",
+      "guid": "d1ae3a000aea3444b890afe885f034fb",
+      "sha256": "66546174e69af8a8a95c702ce1f42db56dbeabbc5f7c8a85132b9bd17de2dc9a"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/shotgun_pickup.wav",
+      "guid": "800c37df0b98aa4429feaffa1d384124",
+      "sha256": "2b686562f12f8e4114007a2d502d4ef11101326e049d3361256fcfa5264998f8"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/shotgun_shot.wav",
+      "guid": "b5ffe8f8586475b488ff8819333d60d7",
+      "sha256": "a535df098fd964ddc46bd9cef54ae112e1a8c98d1d15abf0783fcfcc19e00fca"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/soldier_death_01.wav",
+      "guid": "87970e1a4227cf44d83db5a8ebebcdc9",
+      "sha256": "90f664b371c7efc35c6017b02c1c36044c0bfb9ba89da52fba44248c75c1b4a6"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/soldier_death_02.wav",
+      "guid": "a95ac510a42e7294e953ec8ca25c1aaa",
+      "sha256": "1912f59915845145818568f11e6be11efd1e48e8bfc85773a14220893ca53f5c"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/soldier_death_03.wav",
+      "guid": "6e6c3467c34b8714b96e87925dad0810",
+      "sha256": "7995d417d68a4266b29d2c4ab2667cdf7489abc9165fcd4e4db4fdd8baec99d4"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/soldier_death_04.wav",
+      "guid": "e2c6744c71873f9419a8abe5ccce1695",
+      "sha256": "3c5669ce1a6b346cf18dc77318c4f405574cf544e45519b887bfcfad573a468b"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/soldier_death_05.wav",
+      "guid": "0f319c242b0187e48b3cba186631064b",
+      "sha256": "5ba0cb6ae02803eb77eadbf16993d3854207cd7cc5831dbf11fddb644167d05d"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/soldier_death_06.wav",
+      "guid": "3f1620f59e9f53f41831f8590f1cadaa",
+      "sha256": "efa43dc0cb7d76c19b784e0ed94fde95114eef54232f85a32ce18602bac6fd51"
+    },
+    {
+      "path": "Assets/Game/Audio/Player/Dino-Selection.wav",
+      "guid": "c73e64a1e42d91c42a6bb6c77192cde4",
+      "sha256": "8be83aea96be8eecec9ccf162645fba0c07199ec045be736bac3883dad674667"
+    },
+    {
+      "path": "Assets/Game/Audio/MetalSlug/Music/main_theme.ogg",
+      "guid": "0f97e074bdebeff4c8b37885674f6b23",
+      "sha256": "bdb72fc2b24b720e0e269fce7c772e6afaa8c7f6e6843a417df033d5f9d9939d"
+    },
+    {
+      "path": "Assets/Game/UI/SoldierSelect/dino_nameplate.png",
+      "guid": "db1393faf1b31d449b29d8f84ae46265",
+      "sha256": "1cd3569b8d5697be88799bd867dddf88c46a00a3e870602dee06c5779024a86c"
+    },
+    {
+      "path": "Assets/Game/UI/SoldierSelect/player_one_marker.png",
+      "guid": "5ded11cac54565942a8d3c1872d93432",
+      "sha256": "54f08074de3ec9cbc3070d5f93c9c7d52cd41600a34689d26de5de8f3ca97fe8"
+    },
+    {
+      "path": "Assets/Game/UI/SoldierSelect/portrait_frame.png",
+      "guid": "7a24ed85497bfaa468463a5b7c0f4cc7",
+      "sha256": "c1a5375f769a60896e78ff946b8c4ae15b836253f36b5e4f077f236392087658"
+    },
+    {
+      "path": "Assets/Game/UI/SoldierSelect/single_dino_shell.png",
+      "guid": "aa7710e2f92605947b1d8ef2fca0399b",
+      "sha256": "b6bb915f9263ba5f0acebdbac9f687d5d4865a41c928d7b504b3d49518d9635b"
+    },
+    {
+      "path": "Assets/Game/UI/SoldierSelect/soldier_select_heading.png",
+      "guid": "0ae63bbff38863446a7c12b841cc1387",
+      "sha256": "792dc82b7d3ea0acc9d44ebe20732b6947f5cd6255e532737e03073a2c1f5cb4"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/.vs/
+/.vscode/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.tmp
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Keep the tested download; exclude local rebuild output.
+/Builds/*
+!/Builds/DinoSlug-Windows.zip
+
+# Original SNK media is intentionally absent from the source project.
+/Assets/Game/Art/MetalSlug/
+/Assets/Game/Art/MetalSlug.meta
+/Assets/Game/Audio/MetalSlug/
+/Assets/Game/Audio/MetalSlug.meta
+/Assets/Game/Audio/Player/Dino-Selection.wav
+/Assets/Game/Audio/Player/Dino-Selection.wav.meta
+/Assets/Game/UI/SoldierSelect/*
+!/Assets/Game/UI/SoldierSelect/mydino_*
+
+# Optional full source packs and raw recordings remain local.
+/Tools/SourceArt/**/*.zip
+/Recording*.m4a
